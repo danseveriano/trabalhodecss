@@ -6,48 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vitória: História</title> <!-- vi. Títulos; -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&display=swap"
+        rel="stylesheet">
 </head>
 
 <body class="containerFlex">
-    <!-- <header>
-        <img src="esflag.png" width="100%" height="70">
+    <header>
+        <img src="../../assets/global/esflag.png" width="100%" height="70">
         <nav>
-            <table>
-                <tr>
-                    <td><img src="vitoria.png" width="70"></td>
-                    <td><a href="main.html">Página Principal</a></td>
-                    <td>|</td>
-                    <td><a href="cityhistory.html">História da Cidade</a></td>
-                    <td>|</td>
-                    <td><a href="multimedia.html">Multimidia</a></td>
-                    <td>|</td>
-                    <td><a href="contact">Contato</a></td>
-                    <td>
-                        <div id="divBusca">
-                            <input type="text" id="txtBusca" placeholder="Buscar..." />
-                            <id="btnBusca" alt="Buscar" />
-                        </div>
-                    </td>
-                    <td>
-                        <div><button>Buscar</button></div>
-                    </td>
-                </tr>
-            </table>
+        <table>
+            <tr>
+                <td><img src="../../assets/global/vitoria.png" width="70"></td> 
+                <td><a href="../main/main.html">Página Principal</a></td>
+                <td>|</td>
+                <td><a href="../cityhistory/cityhistory.html">História da Cidade</a></td>
+                <td>|</td>
+                <td><a href="../multimedia/multimedia.html">Multimidia</a></td>
+                <td>|</td>
+                <td><a href="../contact/contact.html">Contato</a></td>
+                <td><div id="divBusca">
+                <input type="text" id="txtBusca"placeholder="Buscar..."/>
+                <id="btnBusca" alt="Buscar"/>
+                </div></td>
+                <td><div><button>Buscar</button></div></td>
+            </tr>
+        </table>
         </nav>
-    </header> -->
+    </header>
     <main class="containerText">
         <!-- v. Conteúdo Principal; -->
-        <article>
+        <article class="cityHistory">
             <div>
                 <h1>História da Cidade</h1> <!-- v. Titulo; -->
             </div>
-            <figure>
-                <img src="./Vitoria-360-1.jpg" alt="Vitoria 360" width="800" height="auto">
-                <figcaption>Monumento artístico “Vitória 360º”, Enseada do Suá, Vitória-ES</figcaption>
+            <figure class="figure">
+                <img src="../../assets/cityhistory/Vitoria-360-1.jpg" alt="Vitoria 360">
+                <figcaption style="padding-left: 32px;">Monumento artístico “Vitória 360º”, Enseada do Suá, Vitória-ES</figcaption>
             </figure>
             <div>
                 <h3><u>Primeiros Povos</u></h3><!-- xv. Sublinhado; -->
@@ -72,12 +69,15 @@
                     lha comandada pelo donatário da capitania, Vasco Fernandes Coutinho,
                     contra os goitacás.
                 </p>
-                <figure>
-                    <img src="./Vitória-ES_1903.JPG" alt="Vitória 1903" width="400" height="auto">
-                    <figcaption>Vista de Vitória em 1903</figcaption>
-
-                    <img src="./Vitória em 1937. Arquivo Nacional..jpg" alt="Vitória 1937" width="400" height="auto">
-                    <figcaption>Vista de Vitória em 1937</figcaption>
+                <figure id="figuresCenter">
+                    <div class="imageLeft">
+                        <img src="../../assets/cityhistory/Vitória-ES_1903.JPG" alt="Vitória 1903">
+                        <figcaption style="padding-left: 28px;">Vista de Vitória em 1903</figcaption>
+                    </div>
+                    <div class="imageRight">
+                        <img src="../../assets/cityhistory/Vitória em 1937. Arquivo Nacional..jpg" alt="Vitória 1937">
+                        <figcaption style="padding-left: 30px;">Vista de Vitória em 1937</figcaption>
+                    </div>
                 </figure>
                 <h3><u>Consolidação</u></h3>
                 <p>
@@ -103,9 +103,9 @@
                     ilha.
                 </p>
 
-                <figure>
-                    <img src="./Parque_da_Fonte_Grande_02.jpg" alt="Vista noturna de Vitória do Parque da Fonte Grande"
-                        width="800" height="auto">
+                <figure class="figure">
+                    <img src="../../assets/cityhistory/Parque_da_Fonte_Grande_02.jpg"
+                        alt="Vista noturna de Vitória do Parque da Fonte Grande">
                     <figcaption>Vista Noturna de Vitória do Parque da Fonte Grande</figcaption>
                 </figure>
 
@@ -164,10 +164,10 @@
                     município não faz mais parte da capital.
                 </p>
 
-                <figure>
-                    <img src="./TeceiraPonte.jpg.crdownload" alt="Vista noturna da Terceira ponte em Vitória"
-                        width="800" height="auto">
-                    <figcaption>Ponte Deputado Darcy Castello de Mendonça, popularmente conhecida como Terceira Ponte,
+                <figure class="figure">
+                    <img src="../../assets/cityhistory/TeceiraPonte.jpg.crdownload"
+                        alt="Vista noturna da Terceira ponte em Vitória">
+                    <figcaption style="padding-left: 55px;">Ponte Dep. Darcy Castello de Mendonça, conhecida como Terceira Ponte,
                         Vitória-ES</figcaption>
                 </figure>
 
@@ -189,10 +189,10 @@
             </div>
         </article>
     </main>
-    <!-- <footer>
+    <footer>
         <svg width="100%" height="60">
             <rect width="100%" height="20" fill="#FCAECC" y="40"></rect>
             <rect width="100%" height="20" fill="#64B6F4" y="0"></rect>
         </svg>
-    </footer> -->
+    </footer>
 </body>

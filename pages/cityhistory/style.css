@@ -1,0 +1,83 @@
+h1,
+h2,
+h3,
+span {
+    display: block;
+    text-align: center;
+    font-family: Lato;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    text-align: justify;
+    font-family: roboto;
+    padding: 10px 20% ;
+    font-size: 16px;
+}
+
+.containerFlex {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.containerText {
+    display: flex;
+    width: 100vh;
+    justify-content: center;
+    justify-items: center;
+    padding: 100px 20% 0;
+}
+
+.figure {
+    margin-bottom: 50px;
+}
+
+.figure img {
+    height: 700px;
+    width: auto;
+}
+
+figcaption {
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: left;
+}
+
+#figuresCenter {
+    height: 100%;
+    width: auto;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageLeft,
+.imageRight {
+    display: block;
+    text-align: left;
+}
+
+.imageLeft img {
+    height: 380px;
+    width: auto;
+    margin: 0 30px;
+}
+
+.imageRight img {
+    height: 380px;
+    width: auto;
+    margin: 0 30px;
+}
+
+.cityHistory Span {
+    text-align: left;
+    padding-left: 220px;
+}
+
+
